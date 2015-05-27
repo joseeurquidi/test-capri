@@ -17,7 +17,7 @@ set :deploy_user, "urquidi"
 # the 'full name' of the application
 set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
 # the server(s) to deploy to
-server 'test-capri.cloudapp.net', user: 'urquidi', roles: %w{web app db}, primary: true
+server 'test-capris.cloudapp.net', user: 'urquidi', roles: %w{web app db}, primary: true
 # the path to deploy to
 set :deploy_to, "/home/#{fetch(:deploy_user)}/apps/#{fetch(:full_app_name)}"
 # set to production for Rails
