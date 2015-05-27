@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'test-capri'
-set :repo_url, 'git@github.com:joseeurquidi/test-capri.git'
+set :repo_url, 'https:joseeurquidi:Vagrant7520@github.com/joseeurquidi/blog-app.git'
 
 # describe the rbenv environment we are deploying into
 set :rbenv_type, :user
